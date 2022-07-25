@@ -11,8 +11,8 @@ SunWay SMS gateway package for Golang
 ```go
 username := "username";
 password := "password";
-SpecialNumber := "3000...";
-RecepientNumber := "09123456789";
+SpecialNumber := "5000...";
+RecepientNumber := "091********";
 MessageBody := "تست وب سرویس به زبان گو";
 isFlash := false;
 SendArray(username, password, RecepientNumber, SpecialNumber, MessageBody, IsFlashMessage)
